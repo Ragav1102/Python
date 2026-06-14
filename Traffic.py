@@ -1,5 +1,5 @@
 print('.....Traffic signals.....')
-signal=input('Enter the Signal colour red/yellow/green : ')
+signal=input('Enter the Signal colour red/yellow/green : ').lower()
 if signal=="red":
     print("Stop")
 elif signal=="yellow":
